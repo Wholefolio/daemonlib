@@ -1,5 +1,13 @@
 # Daemon library - used for daemonizing applications and related tools
 
+## Instalation
+### Directly pip
+`pip3 install git+https://github.com/wholefolio/daemonliblib.git#egg=daemonlib`
+### Via git clone
+```
+git clone https://github.com/wholefolio/applib
+cd applib
+```
 ## app.py - a tool for daemonizing and running applications
 Given the config, the app will run separate processes passed in the config's processes path:
 Example:
