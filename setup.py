@@ -7,7 +7,7 @@ with open('README.md', 'r') as f:
 
 setup(name='daemonlib',
       version='1.5.0',
-      description=readme,
+      description="Daemonization library and other utilities",
       url='http://gitlab.com/atkozhuharov/daemonlib',
       Author='Atanas K',
       author_email='atkozhuharov@gmail.com',
